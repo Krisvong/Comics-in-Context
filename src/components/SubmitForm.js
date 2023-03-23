@@ -3,7 +3,12 @@ import RequestFormButton from '../components/RequestFormButton'
 
 export default function SubmitForm() {
   return (
-    <div style={{display: "flex"}}>
+    <div style={{
+        display: "flex",
+        justifyContent: "center",
+        aligntItems: "center",
+        height: "100vh"
+        }}>
       <form style={{display: "inline-block"}}>
         <label>
           Name of Comic:
